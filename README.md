@@ -12,7 +12,7 @@ To build:
 
 To run from command line:
 
-    java -jar simplest-project-1.0-SNAPSHOT-fat.jar
+    java -jar target/simplest-project-1.0-SNAPSHOT-fat.jar
 
 You can take that jar and run it anywhere there is a Java 8+ JDK. It contains all the depdendencies it needs so you
 don't need to install Vert.x on the target machine.
