@@ -17,3 +17,14 @@ To run from command line:
 You can take that jar and run it anywhere there is a Java 8+ JDK. It contains all the depdendencies it needs so you
 don't need to install Vert.x on the target machine.
 
+---
+
+It also contains a Gradle version.
+
+To build:
+
+    ./gradlew shadowJar
+
+To run from command line:
+
+    java -jar build/libs/simplest-proj-1.0-SNAPSHOT-all.jar
