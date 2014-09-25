@@ -27,4 +27,4 @@ To build:
 
 To run from command line:
 
-    java -jar build/libs/simplest-proj-1.0-SNAPSHOT-all.jar
+    java -jar build/libs/simplest-proj-1.0-SNAPSHOT-fat.jar

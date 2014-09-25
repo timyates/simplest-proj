@@ -29,6 +29,7 @@ dependencies {
 }
 
 shadowJar {
+    classifier = 'fat'
     manifest {
         attributes 'Main-Class': 'io.vertx.core.Starter'
         attributes 'Main-Verticle': 'java:io.vertx.example.HelloWorldServer'
